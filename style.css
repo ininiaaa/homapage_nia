@@ -1,0 +1,213 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Inria Sans", sans-serif;
+    background-color: #ffff;
+    color: black;
+    overflow-x: hidden;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    margin-left: 29rem;
+    padding: 1.4rem 1%;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.navbar img{
+    position: relative;
+    width: 100px;
+    right: 27rem;
+    bottom: 27px;
+}
+.kiri .text-log{
+    color: black;
+    position: absolute;
+    width: 99.8px;
+    right: 65rem;
+    margin-top: 4px;
+    font-size: 20px;
+}
+.kiri .text-log2{
+    color: black;
+    position: absolute;
+    width: 99.8px;
+    right: 61.6rem;
+    margin-top: 4px;
+    font-size: 20px;
+}
+.navbar .navigation a{
+    color: black;
+    display: inline-block;
+    font-size: 17px;
+    margin: 5px 2.6rem 0;
+}
+.navbar .navigation a:hover{
+    color: gray;
+}
+.navbar .navigation a::after{
+    content: '';
+    display: block;
+    bottom: 1.5rem;
+    border-bottom: 0.1rem solid black;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+.navbar .navigation a:hover::after{
+    transform: scaleX(0.5);
+}
+.navbar .icon a{
+    color: black;
+    margin: 0.5rem;
+    font-size: 23px;
+}
+.navbar .icon a:hover{
+ color:red;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 20px auto;
+  }
+  .home img {
+    width: 400px;
+    margin-right: 100px;
+}
+
+.text {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+
+.text1 span {
+    color: brown;
+}
+.text1 span1 {
+    color: #E7DB76;
+}
+ .text1 h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.deskripsi {
+    font-size: 20px;
+    margin-left: 70px;
+}
+.deskripsi2 {
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+.tbl-merah:hover {
+    background: #A94B4B;
+    text-decoration: none;
+}
+
+.tbl-merah{
+    background: #A94B4B;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 70px;
+    padding: 15px 20px 15px 20px;
+    color: #fffcfc;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+ /*spesial menu*/
+.container {
+    display: flex; 
+    align-items: center; 
+    height: 100vh; 
+    margin-top: 70px;
+}
+
+.content {
+    display: flex; 
+}
+
+.image {
+    width: 300px; 
+    
+}
+
+.description {
+    margin-left: 50px; 
+    margin-top: 20px; 
+}
+.description h2{
+    font-size: 30px;
+}
+.rating {
+    margin-top: 3px; 
+}
+.harga{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+/*gambar kedua*/
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.details {
+    flex: 1; 
+    padding-right: 20px; 
+    margin-left: 300px;
+}
+.details h2 {
+    font-size: 30px;
+
+}
+.rating{
+    margin-top: 3px;
+}
+.harga p{
+    margin-top: 10px;
+    font-size: 10px;
+
+}
+
+.thumbnail img {
+    width: 400px; 
+    height: auto; 
+    margin-right: 50px;
+}
